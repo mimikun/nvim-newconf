@@ -27,7 +27,7 @@
 - [ ] fern.lua
 - [ ] fidget.lua
 - [ ] git-nvim.lua
-- [ ] gitsigns-nvim.lua
+- [x] gitsigns-nvim.lua
 - [ ] glow-nvim.lua
 - [ ] hawtkeys-nvim.lua
 - [ ] human-rights.lua
@@ -36,7 +36,7 @@
 - [ ] kensaku-command.lua
 - [ ] kensaku-search.lua
 - [ ] live-server-nvim.lua
-- [ ] lualine.lua
+- [x] lualine.lua
 - [ ] luasnip.lua
 - [ ] mason-null-ls.lua
 - [ ] mason.lua

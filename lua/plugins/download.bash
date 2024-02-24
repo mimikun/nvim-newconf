@@ -17,14 +17,12 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/fern.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/fidget.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/git-nvim.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/gitsigns-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/glow-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/hawtkeys-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/human-rights.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/image-preview-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/kdl.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/live-server-nvim.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/lualine.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/luasnip.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/mason-null-ls.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/mason.lua
