@@ -28,7 +28,7 @@
 - [x] lualine.lua
 - [ ] luasnip.lua
 - [ ] mason-null-ls.lua
-- [ ] mason.lua
+- [x] mason.lua
 - [ ] mastodon-nvim.lua
 - [ ] mkdir-nvim.lua
 - [ ] neoscroll-nvim.lua

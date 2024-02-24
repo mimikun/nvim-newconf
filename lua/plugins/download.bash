@@ -22,7 +22,6 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/live-server-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/luasnip.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/mason-null-ls.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/mason.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/mastodon-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/mkdir-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/neoscroll-nvim.lua
