@@ -8,7 +8,7 @@
 
 - [ ] accelerated-jk.lua
 - [ ] align-nvim.lua
-- [ ] alpha.lua
+- [x] alpha.lua
 - [ ] calendar-vim.lua
 - [ ] ccc-nvim.lua
 - [ ] chezmoi-vim.lua

@@ -2,7 +2,6 @@
 
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/accelerated-jk.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/align-nvim.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/alpha.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/calendar-vim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/ccc-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/chezmoi-vim.lua
