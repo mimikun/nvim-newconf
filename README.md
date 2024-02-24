@@ -63,8 +63,8 @@
 - [ ] smoothcursor-nvim.lua
 - [ ] telescope-nvim.lua
 - [ ] template-nvim.lua
-- [ ] themery-nvim.lua
-- [ ] themes.lua
+- [x] themery-nvim.lua
+- [x] themes.lua
 - [ ] todo-comments.lua
 - [ ] tree-sitter.lua
 - [ ] trouble.lua
