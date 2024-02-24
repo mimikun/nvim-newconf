@@ -10,11 +10,8 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/copilot.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/crates-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/csvlens-nvim.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/denops-docker-vim.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/denops.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/dial-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/dotfyle-metadata.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/dps-translate-vim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/dressing-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/eskk-vim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/fern.lua
@@ -26,8 +23,6 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/human-rights.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/image-preview-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/kdl.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/kensaku-command.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/kensaku-search.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/live-server-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/lualine.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/luasnip.lua
@@ -52,7 +47,6 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/pandoc-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/pantran-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/ron.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/skkeleton.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/smoothcursor-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/telescope-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/template-nvim.lua
@@ -70,3 +64,11 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/vim-startuptime.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/vimdoc-ja.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/which-key.lua
+
+# denops plugins
+#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/denops-docker-vim.lua
+#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/denops.lua
+#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/dps-translate-vim.lua
+#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/skkeleton.lua
+#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/kensaku-command.lua
+#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/kensaku-search.lua
