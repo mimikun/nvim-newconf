@@ -66,7 +66,7 @@
 - [x] themery-nvim.lua
 - [x] themes.lua
 - [ ] todo-comments.lua
-- [ ] tree-sitter.lua
+- [x] tree-sitter.lua
 - [ ] trouble.lua
 - [ ] typos-nvim.lua
 - [ ] vim-ambiwidth.lua

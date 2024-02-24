@@ -49,7 +49,6 @@
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/telescope-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/template-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/todo-comments.lua
-#wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/tree-sitter.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/trouble.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/typos-nvim.lua
 #wget https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/vim-ambiwidth.lua
