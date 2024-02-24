@@ -58,7 +58,6 @@ https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/pl
 https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/telescope-nvim.lua
 https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/template-nvim.lua
 https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/themery-nvim.lua
-https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/themes.lua
 https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/todo-comments.lua
 https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/tree-sitter.lua
 https://raw.githubusercontent.com/mimikun/dotfiles/master/dot_config/nvim/lua/plugins/trouble.lua
