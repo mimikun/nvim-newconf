@@ -53,7 +53,8 @@ return {
                 {
                     type = "group",
                     val = function()
-                        return { theta.mru(0, vim.fn.getcwd(), 10) }
+                        return nil
+                        --return { theta.mru(0, vim.fn.getcwd(), 10) }
                     end,
                     opts = {
                         shrink_margin = false,
