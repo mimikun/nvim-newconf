@@ -50,7 +50,7 @@
 - [ ] nvim-autopairs.lua
 - [ ] nvim-cmp.lua
 - [ ] nvim-hlslens.lua
-- [ ] nvim-lspconfig.lua
+- [x] nvim-lspconfig.lua
 - [ ] nvim-scrollbar.lua
 - [ ] nvim-silicon.lua
 - [ ] nvim-surround.lua
