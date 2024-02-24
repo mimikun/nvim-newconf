@@ -4,6 +4,8 @@
 
 ## Plugins
 
+(https://github.com/mimikun/dotfiles/tree/master/dot_config/nvim/lua/plugins)
+
 - [ ] accelerated-jk.lua
 - [ ] align-nvim.lua
 - [ ] alpha.lua
