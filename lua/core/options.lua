@@ -147,4 +147,6 @@ if is_human_rights then
             cache_enabled = 0,
         }
     end
+else
+    vim.g.loaded_clipboard_provider = 0
 end
