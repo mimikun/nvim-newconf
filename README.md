@@ -1,23 +1,22 @@
+# nvim-newconf
 
 `ui_comp_raw_line` repro test
 
 ## Plugins
 
-(https://github.com/mimikun/dotfiles/tree/master/dot_config/nvim/lua/plugins)
+(<https://github.com/mimikun/dotfiles/tree/master/dot_config/nvim/lua/plugins>)
 
 - [ ] align-nvim.lua
 - [x] alpha.lua
-- [ ] calendar-vim.lua
-- [ ] ccc-nvim.lua
+- [x] ccc-nvim.lua
 - [ ] clock-nvim.lua
 - [ ] comment-nvim.lua
-- [ ] copilot.lua
-- [ ] crates-nvim.lua
+- [x] crates-nvim.lua
 - [ ] csvlens-nvim.lua
 - [ ] dial-nvim.lua
-- [ ] dotfyle-metadata.lua
+- [x] dotfyle-metadata.lua
 - [ ] dressing-nvim.lua
-- [ ] fidget.lua
+- [x] fidget.lua
 - [ ] git-nvim.lua
 - [x] gitsigns-nvim.lua
 - [ ] glow-nvim.lua
@@ -26,38 +25,38 @@
 - [ ] image-preview-nvim.lua
 - [ ] live-server-nvim.lua
 - [x] lualine.lua
-- [ ] luasnip.lua
-- [ ] mason-null-ls.lua
+- [x] luasnip.lua
+- [x] mason-null-ls.lua
 - [x] mason.lua
 - [ ] mastodon-nvim.lua
 - [ ] mkdir-nvim.lua
-- [ ] neoscroll-nvim.lua
+- [x] neoscroll-nvim.lua
 - [ ] noice.lua
-- [ ] none-ls.lua
+- [x] none-ls.lua
 - [ ] nvim-2048.lua
 - [ ] nvim-autopairs.lua
-- [ ] nvim-cmp.lua
-- [ ] nvim-hlslens.lua
+- [x] nvim-cmp.lua
+- [x] nvim-hlslens.lua
 - [x] nvim-lspconfig.lua
-- [ ] nvim-scrollbar.lua
+- [x] nvim-scrollbar.lua
 - [ ] nvim-silicon.lua
 - [ ] nvim-surround.lua
 - [ ] obsidian-nvim.lua
 - [ ] orgmode.lua
 - [ ] pandoc-nvim.lua
 - [ ] pantran-nvim.lua
-- [ ] smoothcursor-nvim.lua
-- [ ] telescope-nvim.lua
+- [x] smoothcursor-nvim.lua
+- [x] telescope-nvim.lua
 - [ ] template-nvim.lua
 - [x] themery-nvim.lua
 - [x] themes.lua
-- [ ] todo-comments.lua
+- [x] todo-comments.lua
 - [x] tree-sitter.lua
 - [ ] trouble.lua
 - [ ] typos-nvim.lua
 - [ ] which-key.lua
 
-# denops plugins
+### denops plugins
 
 - [ ] dps-translate-vim.lua
 - [ ] denops-docker-vim.lua
@@ -66,7 +65,7 @@
 - [ ] kensaku-search.lua
 - [ ] skkeleton.lua
 
-# vimscirpt plugins
+### vimscirpt plugins
 
 - [ ] chezmoi-vim.lua
 - [ ] vim-cargo-make.lua
@@ -80,6 +79,7 @@
 ### vimscirpt plugins japanese author
 
 - [ ] accelerated-jk.lua
+- [ ] calendar-vim.lua
 - [ ] eskk-vim.lua
 - [ ] fern.lua
 - [ ] migemo-search-vim.lua
