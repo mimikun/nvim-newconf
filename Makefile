@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 today   = $(shell date "+%Y%m%d")
-product_name = neovim-config
+product_name = nvim-newconf
 gpg_pub_key = CCAA9E0638DF9088BB624BC37C0F8AD3FB3938FC
 
 ## Create a patch and copy it to windows
@@ -15,12 +15,12 @@ gpg-patch : clean diff-patch-gpg copy2win-patch-gpg
 ## Create a patch
 .PHONY : diff-patch-raw
 diff-patch-raw :
-	git diff origin/master > $(product_name).$(today).patch
+	bash ./scripts/create-patch.sh
 
 ## Create a GPG-encrypted patch
 .PHONY : diff-patch-gpg
 diff-patch-gpg :
-	git diff origin/master | gpg --encrypt --recipient $(gpg_pub_key) > $(product_name).$(today).patch.gpg
+	echo "THIS IS WIP"
 
 ## Create a patch
 .PHONY : diff-patch
@@ -44,9 +44,7 @@ delete-branch : clean switch-master
 ## Run clean
 .PHONY : clean
 clean :
-	rm -f *.patch
-	rm -f *.patch.gpg
-	rm -f *.zip
+	bash ./scripts/clean.sh
 
 ## Copy patch to Windows
 .PHONY : copy2win-patch-raw
@@ -68,17 +66,32 @@ test : lint
 
 ## Run lints
 .PHONY : lint
-lint : stylua-lint selene-lint
+lint : selene-lint stylua-lint textlint typo-check shell-lint
 
 ## Run stylua lint
 .PHONY : stylua-lint
 stylua-lint :
 	stylua --check ./
 
-# Run selene lint
+## Run selene
 .PHONY : selene-lint
 selene-lint :
 	selene .
+
+## Run textlint
+.PHONY : textlint
+textlint :
+	pnpm run textlint
+
+## Run typos
+.PHONY : typo-check
+typo-check :
+	typos .
+
+## Run shellcheck
+.PHONY : shell-lint
+shell-lint :
+	bash utils/lint.sh
 
 ## Run format
 .PHONY : fmt
@@ -86,34 +99,22 @@ fmt : format
 
 ## Run format
 .PHONY : format
-format : stylua-format
+format : stylua-format shell-format
 
 ## Run stylua format
 .PHONY : stylua-format
 stylua-format :
 	stylua ./
 
-## Create and Copy 2 Windows release file
-.PHONY : release
-release : copy2win-release
+## Run shfmt
+.PHONY : shell-format
+shell-format :
+	bash ./scripts/format.sh
 
-## Create release file
-.PHONY : create-release
-create-release : clean
-	zip -r $(product_name).zip \
-		Makefile \
-		README.md \
-		coc-settings.json \
-		init.lua \
-		lua/* \
-		stylua.toml \
-		selene.toml \
-		vim.yaml
-
-## Copy 2 Windows release file
-.PHONY : copy2win-release
-copy2win-release : create-release
-	cp *.zip $$WIN_HOME/Downloads/
+## Add commit message up to `origin/master` to CHANGELOG.md
+.PHONY : changelog
+changelog :
+	bash ./scripts/changelog.sh
 
 ## Show help
 .PHONY : help
